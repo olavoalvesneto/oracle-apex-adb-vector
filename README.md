@@ -1,9 +1,9 @@
-# Movies Watchlist Application with Oracle APEX and Autonomous Database 23ai AI Vector Search
+# Movies Watchlist Application with Oracle APEX and Autonomous Database 26ai AI Vector Search
 
 ## Overview
 
 This project implements a cloud-native Movies Watchlist application
-built with Oracle APEX 24.2 on Oracle Autonomous Database 23ai, deployed
+built with Oracle APEX on Oracle Autonomous Database 26ai, deployed
 on Oracle Cloud Infrastructure (OCI).
 
 The solution integrates external REST services and extends traditional
@@ -19,13 +19,13 @@ LiveLabs hands-on lab focused on building a Movies Watchlist application
 using Oracle APEX and REST Data Sources.
 
 Beyond the baseline lab requirements, the solution was extended with
-advanced Oracle Database 23ai AI Vector Search capabilities, including
+advanced Oracle Database 26ai AI Vector Search capabilities, including
 ONNX model deployment, VECTOR column persistence, embedding generation,
 and semantic similarity search.
 
 The final implementation reflects both the completion of the LiveLab
 objectives and additional architectural enhancements demonstrating
-deeper adoption of Oracle 23ai AI features.
+deeper adoption of Oracle 26ai AI features.
 
 ------------------------------------------------------------------------
 
@@ -34,10 +34,10 @@ deeper adoption of Oracle 23ai AI features.
 Infrastructure: - Oracle Cloud Infrastructure (OCI) - Autonomous
 Database (ATP workload) - Oracle REST Data Services (ORDS)
 
-Application Layer: - Oracle APEX 24.2 - REST Data Sources (TMDB
+Application Layer: - Oracle APEX - REST Data Sources (TMDB
 integration) - Multi-user relational persistence
 
-AI Layer: - Oracle Database 23ai AI Vector Search - ONNX embedding model
+AI Layer: - Oracle Database 26ai AI Vector Search - ONNX embedding model
 loaded via DBMS_VECTOR - VECTOR column storage - Embedding generation
 using apex_ai.get_vector_embeddings - Semantic similarity search using
 VECTOR_DISTANCE
@@ -98,11 +98,3 @@ Evaluator Access: Username: ace_evaluator Password: password_ace_2026
 (Runtime-only access. No development privileges.)
 
 ------------------------------------------------------------------------
-
-## Author
-
-Olavo Alves\
-Oracle Cloud Infrastructure\
-Autonomous Database 23ai\
-Oracle APEX\
-AI Vector Search
