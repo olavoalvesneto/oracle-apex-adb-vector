@@ -72,9 +72,7 @@ than keyword matching.
 /sql 01_schema_setup.sql 02_tables.sql 03_vector_model_load.sql
 04_vector_column.sql 05_generate_embeddings.sql 06_sample_queries.sql
 
-/apex-export /application /workspace install.sql
-
-/docs architecture-diagram.png
+/oracle-apex-adb-vector /application /workspace install.sql
 
 ------------------------------------------------------------------------
 
